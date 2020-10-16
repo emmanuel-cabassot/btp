@@ -90,15 +90,17 @@ header{
     
 }
 .equipemain{
-    margin: 4%;
+    
    background: #E7E1DE;
    padding: 5%;
 }
 h1{ 
     text-align: center;
+    
 }
 .présentation{
     font-family: 'Dancing Script', cursive;
+    padding-top: 2%;
 
 }
 .texte{
@@ -131,6 +133,7 @@ background-color: #E7E1DE;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     padding-bottom: 2%;
+    line-height: 2em;
 
 }
 .presentationimg{
@@ -195,6 +198,7 @@ background-color: #E7E1DE;
             align-items: center;
             justify-content: space-between;
             background-color: #2e2e2e;
+            
         }
         
         .footer-logo{
