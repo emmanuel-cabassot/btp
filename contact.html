@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="stylesheet" href="btp.css">
+<link rel="stylesheet" href="css/btp.css">
     <head>
 		<meta charset="utf-8"/>
 		<title>PAREDE Btp</title>
@@ -8,8 +8,8 @@
     <header>
         <div class="header-toolbar">
             <div class="header-logo">
-                <a href="accueil.html">PAREDE Btp</a><br>
-                <span>Bouche du Rhone</span>
+                <a href="accueil.html">PAREDE BTP</a><br>
+                <span>Bouches-du-Rhône</span>
             </div>
             <div class="header-nav">
                 <a href="accueil.html">Accueil</a>
@@ -20,69 +20,71 @@
             </div>
         </div>
     </header>
-<main class="ct-main">
+    <main class="ct-main">
     
-    <div class="ct-contact">
-        <h1>Contactez-nous</h1>
-        <form class="ct-form" action="" method="get">
-            <div class="ct-identite">
-                <div class="ct-nom">
-                    <label for="nom">Nom</label>
-                    <input type="text" name="nom" id="nom" required>
+        <div class="ct-contact">
+            <h1>Contactez-nous</h1>
+            <form class="ct-form" action="" method="get">
+                <div class="ct-identite">
+                    <div class="ct-nom">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" required>
+                    </div>
+                    <div class="ct-prenom">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" required>
+                    </div>
+                    <div class="ct-phone">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" name="téléphone" id="phone" required>
+                    </div>
+                    <div class="ct-mail">
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="mail" required>
+                    </div>
                 </div>
-                <div class="ct-prenom">
-                    <label for="prenom">Prénom</label>
-                    <input type="text" name="prenom" id="prenom" required>
+                <div class="ct-message">
+                    <textarea name="presentation" id="presentation" cols="67" rows="10" placeholder="Ecrivez votre message."></textarea>
                 </div>
-                <div class="ct-phone">
-                    <label for="phone">Téléphone</label>
-                    <input type="tel" name="téléphone" id="phone" required>
+                <div class="ct-submit">
+                    <label for="confirmaton"></label>
+                    <input type="submit" name="confirmer" id="confirmation" formaction="inscription.html" inputmode="">
                 </div>
-                <div class="ct-mail">
-                    <label for="mail">Email</label>
-                    <input type="email" name="mail" id="mail" required>
+            </form>
+            <div class="ct-address">
+                <div class="ct-text">
+                    <h1>PAREDE BTP</h1>
+                    <address>
+                        13 Chemin des pyramides<br>
+                        13300 SALON DE PROVENCE
+                    </address>
+                    <img src="img/phone2.png" alt="téléphone"> <span>04 91 78 26 11</span><br>
+                    <span>contact@parede-btp.com</span>
+                    <div class="ct-horaires">
+                        Horaires:<br>
+                        du lundi au vendredi<br>
+                        de 8h00 à 18h00
+                    </div>
                 </div>
-            </div>
-            <div class="ct-message">
-                <textarea name="presentation" id="presentation" cols="67" rows="10" placeholder="Ecrivez votre message."></textarea>
-            </div>
-            <div class="ct-submit">
-                <label for="confirmaton"></label>
-                        <input type="submit" name="confirmer" id="confirmation" formaction="inscription.html" inputmode="">
-            </div>
-        </form>
-        <div class="ct-address">
-            <div class="ct-text">
-                <h1>PAREDE Btp</h1>
-                <address>13 Chemin des pyramides<br>
-                13300 SALON DE PROVENCE</address>
-                <img src="img/phone2.png"> <span>04 91 78 26 11</span><br>
-                <span>contact@parede-btp.com</span>
-                <div class="ct-horaires">
-                    Horaires:<br>
-                    du lundi au vendredi<br>
-                    de 8h00 à 18h00
+                <div class="ct-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92391.53718745783!2d4.978992037741001!3d43.64326766929188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b60033a801faa1%3A0x40819a5fd96ff20!2sSalon-de-Provence!5e0!3m2!1sfr!2sfr!4v1602784385421!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
-            </div>
-            <div class="ct-maps">
-
             </div>
         </div>
-    </div>
-
-</main>
-   
-<footer>
-    <div class="footer-logo">
-       PAREDE Btp
-    </div>
-    <div class="footer-contact">
-        <h2>Contactez-nous</h2>
-        <div class="footer-phone">
-            <img src="img/phone.png"> 04 91 78 26 11
+    </main>
+    <footer>
+        <div class="footer-logo">
+        PAREDE BTP
         </div>
-        <address>17 Chemin des pyramides, 13300 Salon de Provence.</address>
-    </div>
-</footer>
+        <div class="footer-contact">
+            <h2>Contactez-nous</h2>
+            <div class="footer-phone">
+                <img src="img/phone.png" alt="téléphone"> 04 91 78 26 11
+            </div>
+            <address>
+                17 Chemin des pyramides, 13300 Salon de Provence.
+            </address>
+        </div>
+    </footer>
 </body>
 </html>
